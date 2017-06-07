@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather|Noto+Serif|Roboto+Slab');
+
+.body {
+   
+    font-family: noto-serif;
+    font-size: 15px;
+    color: blueviolet;
+    background: url(img/2.jpg);  
+    -webkit-font-smoothinng:antialiased;
+    -webkit-overflow-scrolling:touch;   
+    margin-top: 100px;
+}
+.fon{
+    background: url(img/5.png);
+    height: 800px;
+}
+
+.content1{
+padding-top: 25px;
+margin-top: 10px;
+border: 3px;
+border-color: black;
+-webkit-box-shadow: -1px -2px 44px 8px rgba(0,0,0,0.6);
+-moz-box-shadow: -1px -2px 44px 8px rgba(0,0,0,0.6);
+box-shadow: -1px -2px 44px 8px rgba(0,0,0,0.6);
+width: auto;
+}
+
+.mid{
+    width: 800px;
+    border: 2px;
+    border-color: black;
+}
+h1,h2,h3,h4,h5,h6
+{
+    font-family: Marriweather;
+    font-weight: 300;
+    color: blueviolet;
+}
+p{
+    line-height: 28px;
+    margin-bottom: 25px;
+}
+
+.center{
+    text-align: center;
+}
+/* ссылки */
+a{
+    color: blueviolet;
+}
+
+a:hover,a:focus{
+    color: aqua;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+hr
+{
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px sold #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.navbar{
+    background-color: #401a51;
+    font-weight: 700;
+    font-size: 12px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+.navbar-invers{
+    background: #76277c;
+    border-color: #ffffff;
+}
+.navbar-inverse .navbar-nav > .active > a {
+    background-color:#401a51 ;
+
+    
+    
+}
+.navbar-inverse .navbar-nav > .hover > a {
+    background-color:#401a51 ;
+      border: 1px solid #ffffff;
+  border-radius: 20px;
+    
+    
+}
+.navbar-inverse .navbar-logo{
+    color: #fff;
+    font-weight: bolder;
+    font-size: 18px;
+    letter-spacing:1px;
+    padding-left: 10px;
+   
+
+    
+}
